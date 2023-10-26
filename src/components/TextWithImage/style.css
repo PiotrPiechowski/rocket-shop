@@ -1,0 +1,21 @@
+.textWithImage {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 50px 50px;
+    gap: 25px;
+
+
+
+}
+
+.aboutMe { 
+    text-align: center;
+    gap: 30px;
+    justify-content: center;
+    
+}
+
+
+
+

@@ -23,6 +23,21 @@
 
 }
 
+
+.menuNavigation a {
+    text-decoration: none;
+    color: blueviolet;
+
+}
+
+
+a:visited {
+    color: forestgreen;
+    text-decoration-color: hotpink;
+  
+}
+
+
 .menuNavigation li:hover {
     color:blueviolet;
     cursor: pointer;
@@ -34,12 +49,6 @@
 
 }
 
-.logo svg {
-    width: 100px;
-    height: 100px;
-    
+a.active{
+    color:brown;
 }
-
-
-
-
