@@ -1,8 +1,9 @@
+import { classicNameResolver } from 'typescript'
 import './style.css'
 
-export const Logo = () => {
+export const Logo = (props: {className?:string}) => {
     return(
-    <div className="logo">
+    <div className={ props.className?props.className:"logo" }>
 
         <svg height="800px" width="800px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xmlSpace="preserve">
         {/* <style type="text/css">

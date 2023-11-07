@@ -1,0 +1,14 @@
+.socialMedia{
+  margin-top: 30px;
+  padding-left: 10px;  
+    
+}
+
+.socialMedia img {
+    width: 30px;
+    height: 30px;
+    gap: 50px
+
+    
+    
+}

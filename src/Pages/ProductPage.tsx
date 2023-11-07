@@ -1,18 +1,20 @@
 import {Navigations} from '../components/Navigation'
 import {Banner} from '../components/Banner'
-const products = [{
-    name: "",
-    brand: "",
-    weight: 12,
-    price: 100,
-}]
+import { products } from '../Data'
+import { Product } from '../components/Product'
 export const ProductPage = () => {
     return(
     <div>
         <Navigations></Navigations>
         <Banner></Banner>  
         {/*     metoda map która pozwala każdy element listy wyświetlić osobno     */}
-        
+        <div>
+      {products.map(product => (
+        <>
+            <Product name={product.name} brand={product.brand} price={product.price}></Product>  
+        </>
+      ))}
+    </div>
                 
     </div>)
 }
