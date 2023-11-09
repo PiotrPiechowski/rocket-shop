@@ -2,6 +2,8 @@ import"./style.css"
 import { Logo } from "../Logo"
 import { Button } from '../Buttons'
 // komentarz
+//komentarz
+
 export const TextWithLogo = () => {
     return(
     <div className="textWithLogo">
